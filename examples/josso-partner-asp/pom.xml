@@ -98,7 +98,7 @@
                             </descriptors>
 
                             <tarLongFileMode>gnu</tarLongFileMode>
-
+							<appendAssemblyId>false</appendAssemblyId>
                         </configuration>
                     </execution>
                 </executions>

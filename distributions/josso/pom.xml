@@ -529,6 +529,7 @@
                             </descriptors>
                             <finalName>${pom.artifactId}-${pom.version}</finalName>
                             <tarLongFileMode>gnu</tarLongFileMode>
+                            <appendAssemblyId>false</appendAssemblyId>
                         </configuration>
                     </execution>
                 </executions>

@@ -625,7 +625,22 @@
         <repository>
             <id>jboss-release-repository</id>
             <name>JBoss Release Repository</name>
-            <url>https://repository.jboss.org/nexus/content/repositories/release</url>
+            <url>https://repository.jboss.org/nexus/content/repositories/releases</url>
+            <layout>default</layout>
+            <releases>
+                <enabled>true</enabled>
+                <updatePolicy>never</updatePolicy>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>never</updatePolicy>
+            </snapshots>
+        </repository>
+
+        <repository>
+            <id>jboss-3rd-party-repository</id>
+            <name>JBoss 3rd-party Repository</name>
+            <url>https://repository.jboss.org/nexus/content/repositories/thirdparty-releases</url>
             <layout>default</layout>
             <releases>
                 <enabled>true</enabled>

@@ -479,7 +479,7 @@
                                     <outputDirectory>${project.build.directory}/jdk14/3rdparty-axis</outputDirectory>
                                     <overWrite>true</overWrite>
                                 </artifactItem-->
-                                <artifactItem>
+                                <!--<artifactItem>
                                     <groupId>org.josso</groupId>
                                     <artifactId>josso-wasce-agent</artifactId>
                                     <version>${pom.version}</version>
@@ -487,11 +487,11 @@
                                     <type>tar.gz</type>
                                     <outputDirectory>${project.build.directory}</outputDirectory>
                                     <overWrite>true</overWrite>
-                                </artifactItem>
+                                </artifactItem>-->
                             </artifactItems>
                         </configuration>
                     </execution>
-                    <execution>
+                    <!--<execution>
                         <id>copy</id>
                         <phase>generate-sources</phase>
                         <goals>
@@ -509,7 +509,7 @@
                                 </artifactItem>
                             </artifactItems>
                         </configuration>
-                    </execution>
+                    </execution>-->
                 </executions>
             </plugin>
             <plugin>

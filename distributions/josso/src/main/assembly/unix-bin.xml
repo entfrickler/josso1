@@ -79,10 +79,10 @@
             <outputDirectory>/dist/agents/bin/repository/</outputDirectory>
         </fileSet>
 	
-		<fileSet>
+		<!--<fileSet>
             <directory>${project.build.directory}/josso-wasce2-agent/</directory>
             <outputDirectory>/dist/agents/bin/</outputDirectory>
-        </fileSet>
+        </fileSet>-->
 	
     </fileSets>
 

@@ -40,7 +40,7 @@
     <properties>
         <!-- exo -->
         <org.gatein.wci.version>2.1.0-GA</org.gatein.wci.version>
-        <org.exoplatform.core.version>2.4.3-GA</org.exoplatform.core.version>
+        <org.exoplatform.core.version>2.5.13-GA</org.exoplatform.core.version>
     </properties>
 
     <dependencies>

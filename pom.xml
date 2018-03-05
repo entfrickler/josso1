@@ -677,6 +677,12 @@
             <url>http://repository.jboss.com/maven2</url>
         </repository>
 
+        <!-- Redhat GA Repo -->
+        <repository>
+            <id>redhat-ga</id>
+            <url>https://maven.repository.redhat.com/ga/</url>
+        </repository>
+
         <!-- OPS4J -->
         <repository>
             <id>ops4j</id>
